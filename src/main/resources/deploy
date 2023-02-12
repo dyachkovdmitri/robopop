@@ -1,0 +1,7 @@
+ls
+cd robopop
+git pull
+mvn clean install
+cd target
+ls
+java -jar demo-0.0.1-SNAPSHOT.jar.original
